@@ -10,14 +10,12 @@ Can be installed on your server or your local network to be used instead of the 
 * Clone the repo
 * Make sure [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) is installed
 * edit `docker-compose.yml` to change the couchDB credentials and/or the listening ports
-* In the cloned directory run:
-```sh
-docker-compose up
-```
+* In the cloned directory run: `docker-compose up` to build and start the service
+* Configure your local couchDB installation by going to [http://localhost:5984/_utils](http://localhost:5984/_utils) (or you server url) and then to **Configuration** and **Enable CORS** in the **CORS** menu. You can edit the other couch settings as you see fit
 
 ## Usage
 
-After the service is built and started you can point your clipr installation to it by enabling
+After the service is built and configured you can point your clipr installation to it by enabling
 the **use alternative sync provider** in the settings tab and adding your installation's url.
 
 ![](repo_assets/settings.png)
