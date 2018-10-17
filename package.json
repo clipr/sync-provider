@@ -1,0 +1,28 @@
+{
+  "name": "clipr-sync-provider",
+  "version": "1.0.0",
+  "description": "Clipr Sync provider implementation",
+  "homepage": "https://clipr.cloud",
+  "author": {
+    "name": "clipr.cloud",
+    "email": "hello@clipr.cloud"
+  },
+  "license": "AGPL-3.0",
+  "main": "index.js",
+  "dependencies": {
+    "@sentry/node": "4.0.6",
+    "bcrypt": "3.0.1",
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.5",
+    "sequelize": "4.39.0",
+    "sequelize-cli": "4.1.1",
+    "sqlite3": "4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "5.6.1",
+    "eslint-config-google": "0.10.0"
+  }
+}
