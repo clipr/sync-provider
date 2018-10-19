@@ -11,7 +11,8 @@ Can be installed on your server or your local network to be used instead of the 
 * Make sure [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) is installed
 * edit `docker-compose.yml` to change the couchDB credentials and/or the listening ports
 * In the cloned directory run: `docker-compose up` to build and start the service
-* Configure your local couchDB installation by going to [http://localhost:5984/_utils](http://localhost:5984/_utils) (or you server url) and then to **Configuration** and **Enable CORS** in the **CORS** menu. You can edit the other couch settings as you see fit
+* Finish the installation of your local couchDB by going to [http://localhost:5984/_utils](http://localhost:5984/_utils) (or you server url) and then to **Setup**
+* Go to **Configuration** and **Enable CORS** in the **CORS** menu. You can edit the other couch settings as you see fit
 
 ## Usage
 
